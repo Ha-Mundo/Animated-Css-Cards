@@ -12,6 +12,35 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  display: inline-block;
+  position: relative;
+  transition: 0.2s ease-in;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h1:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+footer {
+  font-size: 1.55rem;
+  margin-top: 2rem;
+  padding: 1em;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
 .card-list {
   display: flex;
   padding: 3rem;
